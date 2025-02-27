@@ -1,0 +1,86 @@
+body {
+  background-image: url(../images/wave-golden-abstract-background-illustration-free-vector.jpg);
+  background-size: cover; /* Changed to cover for better background fit */
+  display: flex;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+
+.title-box{
+  width: 470px; 
+  height: 50px; 
+  border: solid 2px gold; 
+  margin-top: 70px;
+  background: rgba(0, 0, 0, 0.615); 
+  box-shadow: 0 0 40px rgb(0, 0, 0);  
+  padding: 10px;
+  border-radius: 20px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome{
+  padding: 5px;
+  font-size: 25px;
+  color: rgb(0, 8, 255);
+}
+.chat-container {
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+  border: 2px solid gold;
+  border-radius: 8px;
+  box-shadow: 0 2px 30px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/gettyimages-1415868541-612x612.jpg);
+  background-position: center;
+  background-size: cover; /* Ensure the background covers the container */
+}
+
+.message-input {
+  outline: none;  /* Remove the default outline */
+  font-size: 18px;
+  padding: 10px;
+  width: 380px;
+  margin: 5px;
+  border: 3px solid gold;
+  text-indent: 10px; 
+  border-radius: 40px;
+  background: linear-gradient(silver, rgb(255, 255, 255));
+}
+
+.message-input:hover {
+  border: 3px solid silver;
+  background: linear-gradient(gold, rgb(255, 255, 255));
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.send{
+  margin: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  border-radius: 12px;
+  color: white;
+  background: linear-gradient(rgb(255, 251, 0), rgb(255, 136, 0));
+  border: solid 2px rgb(158, 135, 0);
+}
+
+.send:hover{
+  background: linear-gradient(gold, rgb(0, 255, 47));
+  border: solid 2px rgb(0, 143, 14);
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.message-box{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
