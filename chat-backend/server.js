@@ -13,7 +13,7 @@ const server = http.createServer(app);
 // Initialize Socket.IO
 const io = new Server(server, {
   cors: {
-    origin: "*", // Allow all origins (for development)
+    origin: "https://bytetalk.onrender.com", // Allow all origins (for development)
     methods: ["GET", "POST"],
   },
 });
