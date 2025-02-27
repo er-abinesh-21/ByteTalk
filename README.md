@@ -92,9 +92,12 @@ This repository contains a **Real-Time Chat Application** built using **Socket.I
 ### 1. Home Page  
    ![Home](https://github.com/user-attachments/assets/448ebe7c-2ad8-4dff-af59-7a471f632c5f)
 
-### 2. Search Results  
+### 2. Search Results 
+
+#### User 1:
    ![User 1](https://github.com/user-attachments/assets/89126d04-0b1d-416a-9cac-7aa0a5283494)
 
+#### User 2:
    ![User 2](https://github.com/user-attachments/assets/a1c56b94-065d-4077-bdfd-7bcc748b8a03)
 
 ---
